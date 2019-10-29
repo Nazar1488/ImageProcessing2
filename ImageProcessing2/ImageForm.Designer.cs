@@ -49,7 +49,7 @@
             this.ClientSize = new System.Drawing.Size(943, 697);
             this.Controls.Add(this.pictureBox);
             this.Name = "ImageForm";
-            this.Text = "ImageForm";
+            this.Text = "Image";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
 

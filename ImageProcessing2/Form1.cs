@@ -39,6 +39,9 @@ namespace ImageProcessing2
             var greenValues = rgbStatistics.Green.Values;
             var blueValues = rgbStatistics.Blue.Values;
             luminanceChart.Series["Series1"].Points.Clear();
+            redChart.Series["Series1"].Points.Clear();
+            greenChart.Series["Series1"].Points.Clear();
+            blueChart.Series["Series1"].Points.Clear();
             for (var i = 1; i < luminanceValues.Length; ++i)
             {
                 luminanceChart.Series["Series1"].Points.AddY(luminanceValues[i]);
