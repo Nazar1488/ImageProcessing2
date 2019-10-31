@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea21 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend21 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series21 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea22 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend22 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series22 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea23 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend23 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series23 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea24 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend24 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series24 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea16 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend16 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -48,31 +48,31 @@
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.blueChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.greenChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.redChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.equalizeBtn = new System.Windows.Forms.Button();
             this.luminanceChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.redChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.greenChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.blueChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.equalizeBtn = new System.Windows.Forms.Button();
             this.robertsImage = new System.Windows.Forms.PictureBox();
             this.previtImage = new System.Windows.Forms.PictureBox();
             this.sobelImage = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.luminanceChart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.redChart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.greenChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.blueChart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenChart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redChart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luminanceChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.robertsImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.previtImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sobelImage)).BeginInit();
@@ -87,6 +87,7 @@
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox.TabIndex = 0;
             this.pictureBox.TabStop = false;
+            this.pictureBox.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDoubleClick);
             // 
             // groupBox1
             // 
@@ -114,7 +115,6 @@
             this.openToolStripMenuItem,
             this.toolStripSeparator,
             this.saveToolStripMenuItem,
-            this.saveAsToolStripMenuItem,
             this.toolStripSeparator1,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
@@ -144,12 +144,7 @@
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveToolStripMenuItem.Text = "&Save";
-            // 
-            // saveAsToolStripMenuItem
-            // 
-            this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.saveAsToolStripMenuItem.Text = "Save &As";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -177,87 +172,64 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Charts";
             // 
-            // luminanceChart
+            // blueChart
             // 
-            chartArea21.Name = "ChartArea1";
-            this.luminanceChart.ChartAreas.Add(chartArea21);
-            legend21.Name = "Legend1";
-            this.luminanceChart.Legends.Add(legend21);
-            this.luminanceChart.Location = new System.Drawing.Point(6, 19);
-            this.luminanceChart.Name = "luminanceChart";
-            series21.ChartArea = "ChartArea1";
-            series21.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
-            series21.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            series21.IsVisibleInLegend = false;
-            series21.Legend = "Legend1";
-            series21.Name = "Series1";
-            this.luminanceChart.Series.Add(series21);
-            this.luminanceChart.Size = new System.Drawing.Size(400, 150);
-            this.luminanceChart.TabIndex = 0;
-            this.luminanceChart.Text = "chart1";
-            // 
-            // openFileDialog
-            // 
-            this.openFileDialog.FileName = "openFileDialog1";
-            // 
-            // redChart
-            // 
-            chartArea22.Name = "ChartArea1";
-            this.redChart.ChartAreas.Add(chartArea22);
-            legend22.Name = "Legend1";
-            this.redChart.Legends.Add(legend22);
-            this.redChart.Location = new System.Drawing.Point(6, 175);
-            this.redChart.Name = "redChart";
-            this.redChart.PaletteCustomColors = new System.Drawing.Color[] {
-        System.Drawing.Color.Red};
-            series22.ChartArea = "ChartArea1";
-            series22.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
-            series22.Color = System.Drawing.Color.Red;
-            series22.IsVisibleInLegend = false;
-            series22.Legend = "Legend1";
-            series22.Name = "Series1";
-            this.redChart.Series.Add(series22);
-            this.redChart.Size = new System.Drawing.Size(400, 150);
-            this.redChart.TabIndex = 1;
-            this.redChart.Text = "chart1";
+            chartArea13.Name = "ChartArea1";
+            this.blueChart.ChartAreas.Add(chartArea13);
+            legend13.Name = "Legend1";
+            this.blueChart.Legends.Add(legend13);
+            this.blueChart.Location = new System.Drawing.Point(6, 487);
+            this.blueChart.Name = "blueChart";
+            series13.ChartArea = "ChartArea1";
+            series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            series13.Color = System.Drawing.Color.Blue;
+            series13.IsVisibleInLegend = false;
+            series13.Legend = "Legend1";
+            series13.Name = "Series1";
+            this.blueChart.Series.Add(series13);
+            this.blueChart.Size = new System.Drawing.Size(400, 150);
+            this.blueChart.TabIndex = 3;
+            this.blueChart.Text = "chart3";
             // 
             // greenChart
             // 
-            chartArea23.Name = "ChartArea1";
-            this.greenChart.ChartAreas.Add(chartArea23);
-            legend23.Name = "Legend1";
-            this.greenChart.Legends.Add(legend23);
+            chartArea14.Name = "ChartArea1";
+            this.greenChart.ChartAreas.Add(chartArea14);
+            legend14.Name = "Legend1";
+            this.greenChart.Legends.Add(legend14);
             this.greenChart.Location = new System.Drawing.Point(6, 331);
             this.greenChart.Name = "greenChart";
-            series23.ChartArea = "ChartArea1";
-            series23.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
-            series23.Color = System.Drawing.Color.Green;
-            series23.IsVisibleInLegend = false;
-            series23.Legend = "Legend1";
-            series23.Name = "Series1";
-            this.greenChart.Series.Add(series23);
+            series14.ChartArea = "ChartArea1";
+            series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            series14.Color = System.Drawing.Color.Green;
+            series14.IsVisibleInLegend = false;
+            series14.Legend = "Legend1";
+            series14.Name = "Series1";
+            this.greenChart.Series.Add(series14);
             this.greenChart.Size = new System.Drawing.Size(400, 150);
             this.greenChart.TabIndex = 2;
             this.greenChart.Text = "chart2";
             // 
-            // blueChart
+            // redChart
             // 
-            chartArea24.Name = "ChartArea1";
-            this.blueChart.ChartAreas.Add(chartArea24);
-            legend24.Name = "Legend1";
-            this.blueChart.Legends.Add(legend24);
-            this.blueChart.Location = new System.Drawing.Point(6, 487);
-            this.blueChart.Name = "blueChart";
-            series24.ChartArea = "ChartArea1";
-            series24.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
-            series24.Color = System.Drawing.Color.Blue;
-            series24.IsVisibleInLegend = false;
-            series24.Legend = "Legend1";
-            series24.Name = "Series1";
-            this.blueChart.Series.Add(series24);
-            this.blueChart.Size = new System.Drawing.Size(400, 150);
-            this.blueChart.TabIndex = 3;
-            this.blueChart.Text = "chart3";
+            chartArea15.Name = "ChartArea1";
+            this.redChart.ChartAreas.Add(chartArea15);
+            legend15.Name = "Legend1";
+            this.redChart.Legends.Add(legend15);
+            this.redChart.Location = new System.Drawing.Point(6, 175);
+            this.redChart.Name = "redChart";
+            this.redChart.PaletteCustomColors = new System.Drawing.Color[] {
+        System.Drawing.Color.Red};
+            series15.ChartArea = "ChartArea1";
+            series15.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            series15.Color = System.Drawing.Color.Red;
+            series15.IsVisibleInLegend = false;
+            series15.Legend = "Legend1";
+            series15.Name = "Series1";
+            this.redChart.Series.Add(series15);
+            this.redChart.Size = new System.Drawing.Size(400, 150);
+            this.redChart.TabIndex = 1;
+            this.redChart.Text = "chart1";
             // 
             // equalizeBtn
             // 
@@ -268,6 +240,30 @@
             this.equalizeBtn.Text = "Equalize";
             this.equalizeBtn.UseVisualStyleBackColor = true;
             this.equalizeBtn.Click += new System.EventHandler(this.EqualizeBtn_Click);
+            // 
+            // luminanceChart
+            // 
+            chartArea16.Name = "ChartArea1";
+            this.luminanceChart.ChartAreas.Add(chartArea16);
+            legend16.Name = "Legend1";
+            this.luminanceChart.Legends.Add(legend16);
+            this.luminanceChart.Location = new System.Drawing.Point(6, 19);
+            this.luminanceChart.Name = "luminanceChart";
+            series16.ChartArea = "ChartArea1";
+            series16.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            series16.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            series16.IsVisibleInLegend = false;
+            series16.Legend = "Legend1";
+            series16.Name = "Series1";
+            this.luminanceChart.Series.Add(series16);
+            this.luminanceChart.Size = new System.Drawing.Size(400, 150);
+            this.luminanceChart.TabIndex = 0;
+            this.luminanceChart.Text = "chart1";
+            // 
+            // openFileDialog
+            // 
+            this.openFileDialog.FileName = "openFileDialog1";
+            this.openFileDialog.Filter = "Image Files(*.BMP;*.JPG;*.GIF)|*.BMP;*.JPG;*.GIF|All files (*.*)|*.*";
             // 
             // robertsImage
             // 
@@ -314,15 +310,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Operators";
             // 
-            // label1
+            // label3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(64, 222);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 16);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Roberts";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(497, 222);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 16);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Sobel";
             // 
             // label2
             // 
@@ -334,15 +330,20 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Prewitt";
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(497, 222);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 16);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Sobel";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(64, 222);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 16);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Roberts";
+            // 
+            // saveFileDialog
+            // 
+            this.saveFileDialog.FileName = "resultImage";
+            this.saveFileDialog.Filter = "Image Files(*.BMP;*.JPG;*.GIF)|*.BMP;*.JPG;*.GIF|All files (*.*)|*.*";
             // 
             // Form1
             // 
@@ -363,10 +364,10 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.luminanceChart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.redChart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.greenChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blueChart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenChart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.redChart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luminanceChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.robertsImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.previtImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sobelImage)).EndInit();
@@ -386,7 +387,6 @@
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -403,6 +403,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
     }
 }
 

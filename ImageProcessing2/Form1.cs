@@ -112,7 +112,7 @@ namespace ImageProcessing2
         {
             if (image == null)
             {
-                MessageBox.Show("Error", "Open an image first", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Open an image first", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -219,6 +219,25 @@ namespace ImageProcessing2
         private void SobelImage_DoubleClick(object sender, EventArgs e)
         {
             new ImageForm(sobelImage.Image).Show();
+        }
+
+        private void pictureBox_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            new ImageForm(pictureBox.Image).Show();
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (image == null)
+            {
+                MessageBox.Show("Open an image first", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                image.Save(saveFileDialog.FileName);
+            }
         }
     }
 }
